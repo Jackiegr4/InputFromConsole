@@ -1,0 +1,45 @@
+
+
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		 float numero;
+		 double numero1;
+		 String palabra; //Solo lee lo que ingreses antes del primer espacio
+		 String cadena;
+		 char caracter;
+		
+		
+		     System.out.println("Ingresa una frase: ");
+		     cadena = entrada.nextLine();
+		     
+		     System.out.println("Ingresa una palabra: ");
+		     palabra = entrada.next();
+		    
+		     System.out.println("Digite un numero entero: ");
+		     numero = entrada.nextInt();
+		     
+		     System.out.println("Digita un número decimal: ");
+		     numero1 = entrada.nextDouble();
+		     
+		     System.out.println("Ingresa un caracter: ");
+		     caracter = entrada.next().charAt(0);
+		    
+		     System.out.println("La frase es: " + cadena);
+		     System.out.println("La palabra es: " + palabra);
+		     System.out.println("El número es: " + numero);
+		     System.out.println("El siguiente numero es: " + numero1);
+		     System.out.println("El caracter es: " + caracter);
+		     
+	}
+}
